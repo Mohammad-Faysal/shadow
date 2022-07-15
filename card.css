@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,500;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #eaeaea;
+    color: #444;
+}
+.card-container {
+    margin: 100px auto;
+    max-width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #8f8888, -5px -5px 10px #f7f1f1;
+    padding: 25px;
+}
+.card-image {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin: 25px auto 0;
+}
+.card-image img:hover {
+    cursor: pointer;
+    filter: grayscale(1);
+
+}
+.card-details{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.card-details h2 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+
+}
+.card-details p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 10px 0;
+}
+.card-details .designation {
+    text-align: center;
+    color: #3b3a3a;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.card-details a {
+    text-decoration: none;
+    background-color: aqua;
+    color: #413b3b;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    padding: 8px 28px;
+    display: inline-block;
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+.card-details a:hover{
+    background-color: rgb(225, 38, 206);
+}
+.card-details a:active {
+    outline: 5px solid rgb(9, 121, 165);
+}
